@@ -2,9 +2,12 @@
 <html>
     <head>
         <!-- hier zet je de code in de head tags -->
-        <title> Mijn eerste titel </title>
+        <title> Mijn eerste titelpagina</title>
     </head>
     <body>
-       <!-- hier zet je de code in de body tags-->
+       <h1>Mijn eerste HTML pagina</h1>
+       <h2>Ontdek de wereld van IT</h2>
+       <hr/>
+       <p>Dit zijn mijn eerste stappen in het maken van een HTML pagina</p>
     </body>
 </html>
