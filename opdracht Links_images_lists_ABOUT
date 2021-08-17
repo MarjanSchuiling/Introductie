@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- hier zet je de code in de head tags -->
+        <title> Mijn eerste titelpagina</title>
+    </head>
+    <body>
+       <h1>About me</h1>
+       
+       <img height="200" src="img/Marjan_2.jpg">
+
+       <p>Marjan Schuiling</p>
+       <p>Leusden</p>
+       <p>FrieslandCampina</p>
+
+       <a href="index.html">Ga naar de index pagina</a>
+
+    </body>
+</html>
