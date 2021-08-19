@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- hier zet je de code in de head tags -->
+        <title> Mijn eerste titelpagina</title>
+    </head>
+    <body>
+        <header>
+            <h1>About me</h1>
+            <nav>
+                <ul>
+                    <li><a href='#'>Home</a></li>
+                    <li><a href='#'>About</a></li>
+                    <li><a href='#'>Blog</a></li>
+                    <li><a href='#'>Sign Up</a></li>
+                </ul>
+            </nav>
+            <hr/>
+        </header>
+        <main>
+            <img height="200" src="img/Marjan_2.jpg">
+            <ul>
+                <li>Marjan Schuiling</li>
+                <li>Leusden</li>
+                <li>FrieslandCampina</li>
+            </ul>
+        </main>
+        <footer>
+            <nav>
+                <a href="index.html">Ga naar mijn index pagina</a>
+            </nav>
+        </footer>
+    </body>
+</html>
