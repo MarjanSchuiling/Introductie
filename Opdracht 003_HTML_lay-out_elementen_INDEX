@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- hier zet je de code in de head tags -->
+        <title> Mijn eerste titelpagina</title>
+    </head>
+    <body>
+        <header>
+            <h1>Mijn eerste HTML pagina</h1>
+            <h2>Ontdek de wereld van IT</h2>
+            <nav>
+                <ul>
+                <li><a href='#'>Home</a></li>
+                <li><a href='#'>About</a></li>
+                <li><a href='#'>Blog</a></li>
+                <li><a href='#'>Sign Up</a></li>
+              </ul>
+            </nav>
+            <hr/>
+        </header>
+        <main>
+            <p>Dit zijn mijn eerste stappen in het maken van een HTML pagina</p>
+            <ul>
+                <li>Vakantie</li>
+                <li>Sport</li>
+                <li>Leren ontwikkelen</li>
+            </ul>
+        </main>
+        <footer>
+            <nav>
+                <a href="about.html">Ga naar mijn about pagina</a>
+            </nav>
+        </footer>
+    </body>
+</html>
