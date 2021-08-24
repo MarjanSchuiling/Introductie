@@ -1,0 +1,12 @@
+body { 
+    background-color: teal;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.border {
+    border: 2px solid yellowgreen;
+    margin: 20px
+}
+#green-background {
+    background-color:cadetblue
+}
