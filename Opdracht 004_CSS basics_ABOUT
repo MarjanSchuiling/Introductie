@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- hier zet je de code in de head tags -->
+        <title> About me</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>About me</h1>
+            <img width="600" src="img/Family of 5.jpg">
+            <nav>
+                <ul id="green-background">
+                    <li><a href='#'>Home</a></li>
+                    <li><a href='#'>About me</a></li>
+                    <li><a href='#'>Blog</a></li>
+                    <li><a href='#'>Sign Up</a></li>
+                </ul>
+            </nav>
+            <hr/>
+        </header>
+        <main>
+            <p>Veel oefenen in CSS stylen:</p>
+            <img height="200" src="img/Marjan_2.jpg">
+            <div class="border">
+            <p>Wie ben ik?</p>
+            <ul>
+                <li>Marjan Schuiling</li>
+                <li>Leusden</li>
+                <li>FrieslandCampina</li>
+            </ul>
+        </div>
+        </main>
+        <footer>
+            <nav>
+                <a href="index.html">Ga naar mijn index pagina</a>
+            </nav>
+        </footer>
+    </body>
+</html>
