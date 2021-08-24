@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <title> Mijn eerste titelpagina</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="box-1">
+            <h1>Mijn eerste HTML pagina</h1>
+            <img width="100%" src="img/Les-1-binair-tellen_header.jpg">
+            <nav>
+                <ul class="menu" id="green-background">
+                    <li><a href='http://127.0.0.1:5500/index.html'>Home</a></li>
+                    <li><a href='http://127.0.0.1:5500/about.html'>About me</a></li>
+                    <li><a href='http://127.0.0.1:5500/blog.html'>Blog</a></li>
+                    <li><a href='http://127.0.0.1:5500/sign%20up.html'>Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <hr />
+    <main>
+        <div class="container">
+            <div class="box-2">
+                <h2>Ontdek de wereld van IT</h2>
+                <p>Dit zijn mijn eerste stappen in het maken van een HTML pagina</p>
+                <div class="border">            
+                <p>Je vindt hier meer informatie over mijn interesses:</p>
+                <ul>
+                    <li>Vakantie</li>
+                    <li>Sport</li>
+                    <li>Leren ontwikkelen</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <hr />
+    <footer>
+        <div class="box-3">
+            <nav>
+                <a href="about.html">Ga naar mijn about pagina</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
