@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- hier zet je de code in de head tags -->
+        <title> Contact</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <header>
+                <h1>Contact</h1>
+                <nav>
+                    <ul id="green-background">
+                        <li><a href='http://127.0.0.1:5500/index.html'>Home</a></li>
+                        <li><a href='http://127.0.0.1:5500/about.html'>About me</a></li>
+                        <li><a href='http://127.0.0.1:5500/blog.html'>Blog</a></li>
+                        <li><a href='http://127.0.0.1:5500/sign%20up.html'>Sign Up</a></li>
+                        <li><a href='http://127.0.0.1:5500/contact.html'>Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <hr/>
+        <main>
+            <h2>Contactformulier</h2>
+            <form name="contact" method="POST" data-netlify="true">
+                <p>
+                  <label>Name: <input type="text" name="name" /></label>   
+                </p>
+                <p>
+                  <label>Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                  <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                  <button type="submit">Submit</button>
+                </p>
+              </form>
+        </main>
+        <hr />
+        <footer class="box-3">
+            <nav>
+                <a href="index.html">Ga naar mijn index pagina</a>
+            </nav>
+        </footer>
+    </body>
+</html>
