@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Formulier</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="colorh1">Formulier</h1>
+            <nav>
+                <ul id="green-background">
+                    <li><a href='http://127.0.0.1:5500/index.html'>Home</a></li>
+                    <li><a href='http://127.0.0.1:5500/about.html'>Over</a></li>
+                    <li><a href='http://127.0.0.1:5500/blog.html'>Bananen Blog</a></li>
+                    <li><a href='http://127.0.0.1:5500/contact.html'>Formulier</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+    <div class="box-3">
+        <h2>Bananenformulier</h2>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+                <label>Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label>Telefoon: <input type="tel" name="tel" /></label>
+            </p>
+            <p>
+                <label>Geboortedatum: <input type="date" name="date" /></label>
+            </p>
+            <p>
+                <label>Lievelingskleur: <input type="radio" id="bananengeel" name="bananengeel" value="bananengeel">
+                    <label for="bananengeel">Bananengeel</label><br>
+                    <input type="radio" id="aardbeienrood" name="aardbeienrood" value="aardbeienrood">
+                    <label for="aardbeienrood">Aardbeienrood</label><br>
+                    <input type="radio" id="kleur" name="appelgroen" value="appelgroen">
+                    <label for="appelgroen">Appelgroen</label>
+                </label>
+            </p>
+            <p>
+                <label>Favoriete bananengerecht: <input type="checkbox" id="recept1" name="recept1" value="Taart">
+                    <label for="recept1"> Taart</label><br>
+                    <input type="checkbox" id="recept2" name="recept2" value="Smoothie">
+                    <label for="recept2"> Smoothie</label><br>
+                    <input type="checkbox" id="recept3" name="recept3" value="Brood">
+                    <label for="recept3"> Brood</label><br>
+                </label>
+            </p>
+            <p>
+                <label>Persoonlijke bananenverhaal?: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+            <p>
+                <label>Mooiste bananenfoto: <input type="file" name="recept" /></label>
+            </p>
+            <p>
+                <label>Url favoriete bananenwebsite: <input type="url" name="url" /></label>
+            </p>
+            <button type="reset">Reset</button>
+            </p>
+            <p>    
+            <button type="submit">Verstuur</button>
+            </p>
+        </form>
+    </div>
+    </main>
+    <hr />
+    <footer class="box-3">
+        <nav>
+            <a href="contact.html">Ga terug naar boven</a>
+        </nav>
+    </footer>
+</body>
+
+</html>
