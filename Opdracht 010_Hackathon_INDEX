@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Banananana</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="colorh1">Banananana</h1>
+            <img width="100%" src="img/Bananen_header.jpg">
+            <nav>
+                <ul class="menu" id="green-background">
+                    <li><a href='http://127.0.0.1:5500/index.html'>Home</a></li>
+                    <li><a href='http://127.0.0.1:5500/about.html'>Over</a></li>
+                    <li><a href='http://127.0.0.1:5500/blog.html'>BananenBlog</a></li>
+                    <li><a href='http://127.0.0.1:5500/contact.html'>Formulier</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <h2 class="colorh2">De wereld van bananen</h2>
+        <p>Op deze website vind je alles wat je altijd al over bananen wilde weten. Een banaan is een langwerpige, licht gebogen vrucht, die afkomstig is van de bananenplant.</p>
+        <h4>Oei ik groei</h4>
+        <img width="300" height="140" src="img/Oei-ik-groei_banaan_300x140.jpg">
+        <p>Bananen groeien in trossen van ongeveer 50 kilo. De stengel van de bananenplant is zeer kort en bevindt zich volledig ondergronds. De stengel vormt een grote massa van fijne lange wortels die zeer dicht onder het bodemoppervlak blijven. Het duurt ongeveer 9 maanden voordat een banaan volgroeid is en geoogst kan worden.</p>
+        <h4>Waar komt de banaan vandaan?</h4>
+        <img width="300" height="140" src="img/Soorten bananen.jpg">
+        <p>Bananen komen uit warme, tropische landen, zoals Ecuador, Costa Rica, Panama, Honduras, Colombia, Guatemala en de Filipijnen. De meeste van die landen liggen in Zuid-Amerika. Daar groeit de bananenplant. Een bananenplant heeft geen stam maar bestaat eigenlijk helemaal uit bladeren.</p>
+        <h4>Kijk uit! Een bananenschil</h4>
+        <img width="300" height="140" src="img/Bananenschil.jfif">
+        <p>Gooi bananenschillen niet weg want je kan ze voor heel wat nuttige dingen gebruiken, zoals deze top 5:
+            <ol>
+                <li>Je schoenen poetsen</li><br>
+                <li>Vlees mals houden</li><br>
+                <li>Meststof</li><br>
+                <li>Verlichting</li><br>
+                <li>Planten laten glanzen</li><br>
+            </ol>
+        <p>Lees hier <a href='https://weekend.knack.be/lifestyle/culinair/16-nuttige-dingen-die-je-kan-doen-met-een-bananenschil/article-normal-651911.html?cookie_check=1630070807'>de hele top (16) lijst</a> nuttige dingen die je kan doen met een bananenschil</p>
+        <h4>Mmmmm, lekker!</h4>
+        <img width="300" height="140" src="img/Bananengerechten.jfif">
+        <p>Zijn bananen gezond? De banaan bevat in vergelijking met ander fruit weinig vitamine C, maar veel voedingsvezel, kalium en zetmeel. Van de populairste fruitsoorten in Nederland is banaan de calorierijkste. Bij het rijpen van de banaan wordt zetmeel omgezet in suikers.</p>
+    </main>
+    <hr />
+    <footer>
+        <div class="box-3">
+            <nav>
+                <a href="index.html">Ga terug naar boven</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
