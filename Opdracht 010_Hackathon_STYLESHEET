@@ -1,0 +1,132 @@
+body { 
+    background-color: yellowgreen;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin:10px;
+}
+
+header {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+footer  {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.colorh1 {
+    color:teal;
+    font-size: 30px;
+}
+
+.colorh2 {
+    color: black;
+    font-size: 20px;
+}
+
+.colorp {
+    color: white;
+}
+
+.container {
+    width:500px;
+    margin:auto;
+}
+
+.border {
+    border: 2px solid cadetblue;
+    margin: 20px
+}
+
+.box-1 {
+    background-color: brown;
+    padding-top:10px;
+    padding-right:20px;
+    padding-bottom:10px;
+    padding-left:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.box-2 {
+    background-color:rgb(226, 226, 29);
+    color: rgb(78, 78, 78);
+    padding:10px 20px 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.box-3 {
+    background-color: white;
+    border:grey;
+    color: rgb(78, 78, 78);
+    padding:10px 20px 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.small {
+    font-size: 12px;
+}
+.schuin {
+    font-style: italic;
+}
+
+#green-background {
+    background-color: teal
+}
+
+ul {
+    list-style-type:none;
+    margin: 0px;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 30;
+    overflow: hidden;
+    background-color: darkslategray;
+}
+  
+li {
+    float: left;
+}
+    
+li a {
+    display: block;
+    background-color: teal;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+      
+li a:hover {
+    background-color:cadetblue;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-color: yellow;
+        color:black;
+        font-size: 16px;
+        margin:15px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: brown;
+        color:white;
+        font-size: 16px;
+        margin:20px;
+    }
+}
