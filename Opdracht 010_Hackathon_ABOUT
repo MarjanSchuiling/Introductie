@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Over Bananen</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="colorh1">Over Bananen</h1>
+            <img width="100%" src="img/Even voorstellen_banaan_header.jpg">
+            <nav>
+                <ul class="menu" id="green-background">
+                    <li><a href='http://127.0.0.1:5500/index.html'>Home</a></li>
+                    <li><a href='http://127.0.0.1:5500/about.html'>Over</a></li>
+                    <li><a href='http://127.0.0.1:5500/blog.html'>Bananen Blog</a></li>
+                    <li><a href='http://127.0.0.1:5500/contact.html'>Formulier</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <h2 class="colorh2">Even voorstellen</h2>
+            <h3>Soorten bananen</h3>
+                <p>Er bestaan ongeveer 400 bananenvariëteiten. De bekendste soorten zijn: bakbananen, rode bananen, appelbananen, babybananen en de dessertbanaan. De variëteit "Cavendish", geteeld voor de export en gekend als dé dessertbanaan, is dan ook de meest voorkomende.</p>
+                <ul>
+                    <li>Weetje: Een gemiddelde banaan bevat minder dan 110 calorieën.</li>
+                </ul>
+
+            <h3>Levensmiddel</h3>
+                <p>De meeste bananen worden onbewerkt gegeten. Bananen worden ook in vele levensmiddelen verwerkt. Pisang goreng bijvoorbeeld is een zoet gerecht met gebakken banaan. In de toko kan men gezoete en gedroogde gebakken banaan kopen (Kerupuk pisang, "bananenchips"). Ook worden er bakbananen verkocht die beter geschikt zijn voor het opbakken dan de gebruikelijke bananen die bij de groentewinkel worden verkocht. Pisang Ambon is likeur met deels de smaak van bananen en er bestaat ook bananenbier. Het van oorsprong Amerikaanse bananenbrood wordt eveneens bereid met bananen.</p>
+                <ul>
+                    <li>Weetje: Een banaan is zeer rijk aan vitamine B6.</li>
+                </ul>
+            <h3>Melatonine</h3>
+                <p>Heb je weleens moeite met de slaap vatten? Een Amerikaanse specialist adviseert om met name ’s avonds eten tot je te nemen dat van nature melatonine bevat, het stofje dat jou – juist ja – helpt om in slaap te komen. Bananen bevatten melatonine, net als tomaten, mais en kersen trouwens.</p>
+                <ul>
+                    <li>Weetje: Na 2 stuks kun je ongeveer 90 minuten fitnessen.</li>
+                </ul>
+    </main>
+    <hr />
+    <footer class="box-3">
+        <nav>
+            <a href="about.html">Ga terug naar boven</a>
+        </nav>
+    </footer>
+</body>
+
+</html>
