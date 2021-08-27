@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Bananen Blog</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="colorh1">Bananen Blog</h1>
+            <img width="100%" src="img/Family of 5.jpg">
+            <nav>
+                <ul id="green-background">
+                    <li><a href='http://127.0.0.1:5500/index.html'>Home</a></li>
+                    <li><a href='http://127.0.0.1:5500/about.html'>Over</a></li>
+                    <li><a href='http://127.0.0.1:5500/blog.html'>Bananen Blog</a></li>
+                    <li><a href='http://127.0.0.1:5500/contact.html'>Formulier</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2 class="colorh2">Banenverhalen</h2>
+                <p>Onze vaste columnisten vertellen over hun leven met bananen.</p>
+            <h2 class="box-1"> Mijn eerste banaan...
+                <p class="small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet ab labore dignissimos delectus, vitae consectetur expedita explicabo quam molestias, unde esse eligendi! Doloribus iusto eligendi eveniet voluptas laboriosam in voluptatem.</p>
+                <p class="schuin">door Jethro van Dalfsen</p>
+            <h2 class="box-2"> Toen mijn banaan nog een banaantje was...
+                <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, fugiat inventore esse voluptatem in eos! Quaerat, dolore! Cupiditate aut asperiores molestias quasi, ut amet, non quam accusantium fugit eum nemo.</p>
+                <p class="schuin">door Kate de Jong</p>
+            <h2 class="box-3"> De wondere wereld van bananen...
+                <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed optio cum id ipsa ipsum, soluta, blanditiis, quas praesentium iusto vero amet! Dolore vel deserunt quidem recusandae ipsum neque pariatur autem!</p>
+                <p class="schuin">door Vicky Schuiling</p>
+            </main>
+        <hr />
+        <footer class="box-3">
+            <nav>
+                <a href="blog.html">Ga terug naar boven</a>
+            </nav>
+        </footer>
+    </body>
+</html>
