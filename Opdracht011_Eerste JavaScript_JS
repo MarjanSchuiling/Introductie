@@ -1,0 +1,9 @@
+console.log("Hello Winc Academy")
+let name = 'Marjan'
+console.log(name)
+
+let age = 39
+console.log(age)
+
+4+4
+"4" + "4"
