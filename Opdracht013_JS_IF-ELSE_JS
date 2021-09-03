@@ -1,0 +1,12 @@
+var age = 30;
+
+
+if (age > 18) {
+
+    document.write("Jij mag naar binnen");
+
+} else if (age < 18) {
+
+    document.write("Jij bent te jong en mag helaas niet naar binnen");
+
+}
