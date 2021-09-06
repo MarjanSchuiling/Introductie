@@ -1,0 +1,33 @@
+const makePizza = function() {
+  console.log("Maak de pizzabodem");
+  console.log("Beleg de pizza");
+  console.log("Stop de pizza in de oven")
+
+}
+
+// Bovenstaande is alleen het schrijven van de function
+
+// Hieronder is hoe we het gaan gebruiken (runnen-call the function):
+
+makePizza();
+makePizza();
+makePizza();
+
+const makeSushi = function () {
+  console.log("Maak sushi platen");
+  console.log("Vul de sushi platen");
+  console.log("Rol de sushi")
+  console.log("Snijd de rollen in sushi stukjes")
+
+}
+
+makeSushi();
+
+// 3x sushi maken en 2x pizza:
+
+makeSushi();
+makeSushi();
+makeSushi();
+makePizza();
+makePizza();
+
