@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title> JavaScript If Else </title>
+
+</head>
+
+<body>
+  <header>
+    <h1>JavaScript If Else</h1>
+  </header>
+  <hr />
+  <main>
+
+  </main>
+  <hr />
+  <footer>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
