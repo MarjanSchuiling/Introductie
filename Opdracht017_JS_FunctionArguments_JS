@@ -1,0 +1,41 @@
+const paintWall = function() {
+  console.log("The wall has been painted red");
+
+};
+
+paintWall();
+
+const wall = function(color) {
+  console.log("The wall has been painted " + color);
+
+};
+
+wall("green");
+wall("orange");
+
+wall();
+//When you call the function without an argument it says 'undefined'
+
+const wallLocation = function(place, color) {
+  console.log("The " + place, "wall has been painted " + color);
+};
+
+wallLocation("north", "orange");
+wallLocation("south-east", "grey")
+
+//does the order of the arguments matter when calling the function? 
+//-> Yes
+
+//what happens if you switch them in the function definition?
+// -> They switch places
+
+const wallPaint = function(color, place) {
+  console.log("The " + place, "wall has been painted " + color);
+};
+
+wallPaint("north", "orange");
+wallPaint("south-east", "grey")
+
+//what happens if you change the order of the arguments in the function definition and when calling the function?
+// -> It shows what's in the order of the function definition
+
