@@ -1,0 +1,65 @@
+const age = function(number) {
+    const sum = number;
+    if (sum > 100) {
+      return true;
+    }
+    if (sum < 100) {
+       return false;
+    }
+};
+
+const result = age(101);
+console.log(result);
+
+const countPeople = function(number) {
+  const sum2 = number;
+  if (sum2 > 200) {
+    return "it's too busy now, come back later";
+  }
+  if (sum2 < 200) {
+     return "come in";
+  }
+};
+
+const result2 = countPeople(99);
+console.log(result2);
+
+const agePeople = function(number) {
+  const sum3 = number;
+  if (sum3 > 18) {
+    return "come in!";
+  }
+  if (sum3 < 18) {
+     return "this is a club for adults";
+  }
+};
+
+const result3 = agePeople(16);
+console.log(result3);
+
+//Functions that do something 
+//-> They just do something and then we're at the end of the function.
+
+//Functions that produce something
+//-> A function that produces something returns one or more values. It does not do something.
+
+
+const avarageFiveNumbers = function(numberA, numberB, numberC, numberD, numberE) {
+  console.log(numberA + numberB + numberC + numberD + numberE);
+};
+
+avarageFiveNumbers(2,4,6,8,3)
+
+
+const calculateAvarage = function(numbers) {
+    const avarge = numbers.reduce(total, n) (total + n) / numbers.lenght;
+    console.log(avarage);
+};
+
+calculateAvarage([10,20])
+
+
+const fiveNumbers = [20,10,3,40,2];
+calculateAvarage(fiveNumbers);
+
+// This is a function that produces something
