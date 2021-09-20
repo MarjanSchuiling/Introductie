@@ -1,0 +1,41 @@
+
+//function declaration
+function wayOne(number1, number2) {
+  console.log(number1 * number1 + number2 * number2) * (number1 * number1 + number2 * number2);
+  return (number1 * number1 + number2 * number2);
+}
+
+wayOne(2, 4)
+
+//function expression
+const wayTwo = function(number3, number4) {
+  console.log(number3 * number3 + number4 * number4) * (number3 * number3 + number4 * number4);
+};
+
+wayTwo(2, 4)
+
+//arrow function
+const wayThree = (number5, number6) => {
+  console.log(number5 * number5 + number6 * number6);
+};
+
+wayThree(2, 4)
+
+
+//function sayHello1(number1) {
+//  console.log(number1);
+//}
+
+//sayHello1(2);
+
+//const sayHello2 = function(number1) {
+//    console.log(number1);
+//};
+
+//sayHello2(3);
+
+//const sayHello3 = (number3) => {
+//    console.log(number3);
+//};
+
+//sayHello3(4);
