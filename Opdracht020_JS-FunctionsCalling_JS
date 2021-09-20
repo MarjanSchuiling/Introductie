@@ -1,0 +1,41 @@
+const age1 = 18;
+
+if (age1 >= 18) {
+  console.log("true");
+} else {
+  console.log("false");
+}
+
+const age2 = 16;
+
+if (age2 >= 18) {
+  console.log("Hello there");
+} else {
+  console.log("Hello kiddo");
+}
+
+const age3 = function(number) {
+  if (number >=18) {
+      return true;
+  } else {
+      return false;
+  }
+};
+
+console.log(age3(15));
+console.log(age3(50));
+console.log(age3(20));
+console.log(age3(9));
+
+
+//For example, the price for a computer without VAT is 1000. 
+///The VAT percentage for a computer is 21%. The VAT would be: 1000 * 0.21, so 210. 
+//The price including VAT would be: 1000 * 1.21, so 1210.
+
+const calculateVAT = function(number1, number2) {
+  const sum = number1 * number2;
+  return sum;
+};
+
+console.log(calculateVAT(1000, 1.21));
+
