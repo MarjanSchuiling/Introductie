@@ -1,0 +1,12 @@
+
+let colors = ['yellow', 'blue', 'red', 'orange'];
+    console.log(colors);
+
+while (colors = yellow) {
+    console.log("The color is yellow")
+    colors++;
+}
+
+document.write("There is no color");
+
+//Als ik op regel 5 yellow tussen haakjes zet, lijkt ie bijna te werken, maar dan blijft ie maar draaien..
