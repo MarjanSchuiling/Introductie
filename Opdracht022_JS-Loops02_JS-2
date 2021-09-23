@@ -1,0 +1,22 @@
+
+
+let colors = ['yellow', 'blue', 'red', 'orange'];
+    console.log(colors);
+
+    for (colors = 'yellow'; colors < colors.lenght; colors++) {
+          console.log("De kleur is " + 'yellow');
+      }
+
+document.write("Alle kleueren zijn geweest")
+
+const array1 = ['yellow', 'blue', 'red'];
+
+array1.forEach(element => console.log(element));
+
+//1.veel
+//2.minder
+//3.makkelijker leesbaar en minder foutgevoelig
+//4.persons.map((person) => {
+//    return person.name;
+//}); // output: ['Piet', 'Jan', 'Klaas', 'Joost']
+
