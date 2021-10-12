@@ -1,0 +1,70 @@
+let naam = prompt('Welkom! Wat is je naam?');
+
+alert(`Hey ${naam}!`);
+
+let nummer = prompt('Voer een nummer in van 0 tot 25 om te beginnen met raden...');
+let convertNumber=parseInt(nummer)
+console.log(typeof convertNumber)
+
+alert(`Je kiest nummer ${convertNumber}!`);
+
+function getRandomArbitrary() {
+    return Math.floor(Math.random() * (25 - 0) + 0);
+  }
+console.log(getRandomArbitrary())
+
+console.log("Het gekozen nummer is: " + convertNumber);
+
+
+//Math.random verglijken met convertNumber
+
+
+let numberToBeGuessed = convertNumber == Math.floor(Math.random() * (25 - 0)) + 0;
+  if (Math.random !== convertNumber) {
+    alert(
+      "Helaas, dat is niet correct. We beginnen weer opnieuw met een nieuw nummer! Je hebt nog 2 kansen");
+    numberOfGuesses = 3;
+    numberToBeGuessed = Math.floor(Math.random() * (25 - 0)) + 0;
+  }
+  else {
+    alert("Gefeliciteerd, je hebt gewonnen! Het spel is nu afgelopen.");
+    alert(
+      "We sluiten de game af. Bedankt voor het spelen " +
+        naam +
+        ", tot de volgende keer!"
+    );
+  }
+  currentGuess = parseInt(prompt("Voer je 2e nummer in.."));
+
+  if (Math.random !== convertNumber) {
+    alert(
+      "Helaas, dat is niet correct. We beginnen weer opnieuw met een nieuw nummer! Je hebt nog 1 kans");
+    numberOfGuesses = 2;
+    numberToBeGuessed = Math.floor(Math.random() * (25 - 0)) + 0;
+  }
+  else {
+    alert("Gefeliciteerd, je hebt gewonnen! Het spel is nu afgelopen.");
+    alert(
+      "We sluiten de game af. Bedankt voor het spelen " +
+        naam +
+        ", tot de volgende keer!"
+    );
+  }
+  currentGuess = parseInt(prompt("Voer je 3e en laatste nummer in.."));
+
+  if (Math.random !== convertNumber) {
+    alert(
+      "Helaas, dat is niet correct. Dit was laatste poging. Het spel is nu afgelopen. Bedankt voor het meespelen!");
+    numberOfGuesses = 1;
+    numberToBeGuessed = Math.floor(Math.random() * (25 - 0)) + 0;
+  }
+  else {
+    alert("Gefeliciteerd, je hebt gewonnen! Het spel is nu afgelopen.");
+    alert(
+      "We sluiten de game af. Bedankt voor het spelen " +
+        naam +
+        ", tot de volgende keer!"
+    );
+  }
+
+//Het lijkt me nu niet gelukt te zijn te matchen als het antwoord wél goed is
